@@ -1,0 +1,57 @@
+.navbar {
+  padding: 0;
+}
+
+.navbar > li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.ant-table-wrapper{
+  width:450px;
+}
+
+.ant-table-thead > tr > th,.ant-table-tbody > tr > td {
+  border-bottom: none;
+  background: #000;
+  color: #aaa;
+}
+
+body,
+.ant-table-container,
+.ant-table-tbody > tr.ant-table-row:hover > td, 
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: #000;
+}
+
+.ant-pagination-item,.ant-pagination-jump-next,.ant-pagination-jump-prev{
+  display: none;
+}
+.ant-table-pagination-right{
+  justify-content:center
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td{
+  padding:0
+}
+
+.editable-cell-value-wrap{
+  padding-right:0px !important;
+}
+
+.ant-pagination-item-link{
+  color:#fff !important
+}
+
+.ant-input{
+  padding: 0;
+  color:#aaa;
+  background-color: #000;
+  border:none;
+  line-height:auto;
+  width:20px;
+}
+
+.ant-form-item-control-input{
+  min-height: auto;
+}
